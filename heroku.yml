@@ -1,0 +1,4 @@
+# Heroku container deploy: builds the backend image from backend/Dockerfile.
+build:
+  docker:
+    web: backend/Dockerfile
